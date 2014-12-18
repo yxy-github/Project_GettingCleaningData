@@ -1,20 +1,21 @@
-# Getting and Cleaning Data - Course Project
+# Getting and Cleaning Data - 
+## Course Project
 
-## Introduction
+### Introduction
 This repository contains my R-script and data created for the course project of Getting and Cleaning Data.
 
-## Objective
+### Objective
 The main goal of this project is to use R to collect, work with, clean a data set so that the tidy data can be used for later analysis. 
 
-## Data Description
-The data provided by the following link are collected from the accelerometers from the Samsung Galaxy S smartphone. 
+### Data Description
+The data provided by the following link are collected from the accelerometers from the Samsung Galaxy S smartphone:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 A full description of the data can be found here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-## Methods
-An R script called 'run_analysis.R' was created to:
+### Method
+Run 'run_analysis.R'. This R script was created to:
 1. Download the files from the given link and unzip the files if the data are not found.
 2. Load the data listed above.
 3. Merge the train and test data.
@@ -23,7 +24,7 @@ An R script called 'run_analysis.R' was created to:
 6. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 7. Export the tidy data set as a text file called 'data_mean_subject_activity.txt'.
 
-The tidy data set created from the 'run_analysis.R' is also included in this repository.
+The tidy data set generated from the 'run_analysis.R' is also included in this repository.
 
 Finally, the file 'CodeBook.md' describes the variables, the data, and any transformations or work that are performed to clean up the data
 
