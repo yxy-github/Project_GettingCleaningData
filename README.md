@@ -16,13 +16,13 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ### Method
 Run 'run_analysis.R'. This R script was created to:
-1. Download the files from the given link and unzip the files if the data are not found.
-2. Load the data listed above.
-3. Merge the train and test data.
-4. Label the columns for the merged data with descriptive names and use descriptive activity names to name the activities in the data set.
-5. Extract only the measurements on the mean and standard deviation for each measurement.
-6. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
-7. Export the tidy data set as a text file called 'data_mean_subject_activity.txt'.
+- Download the files from the given link and unzip the files if the data are not found.
+- Load the data listed above.
+- Merge the train and test data.
+- Label the columns for the merged data with descriptive names and use descriptive activity names to name the activities in the data set.
+- Extract only the measurements on the mean and standard deviation for each measurement.
+- Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+- Export the tidy data set as a text file called 'data_mean_subject_activity.txt'.
 
 The tidy data set generated from the 'run_analysis.R' is also included in this repository.
 
